@@ -1,0 +1,6 @@
+/* Reset some default styles */
+iframe {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}

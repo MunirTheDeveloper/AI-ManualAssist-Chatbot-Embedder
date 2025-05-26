@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <data name="responsiveIframePCFControl_Display_Key" xml:space="preserve">
+    <value>Responsive Iframe Control</value>
+    <comment>Name of the control displayed on designer</comment>
+  </data>
+  <data name="responsiveIframePCFControl_Desc_Key" xml:space="preserve">
+    <value>A PCF control to embed responsive iframes with custom permissions.</value>
+    <comment>Description of the control displayed on designer</comment>
+  </data>
+  <data name="Source_Display_Key" xml:space="preserve">
+    <value>Iframe URL (Source)</value>
+    <comment>Display name for the source property</comment>
+  </data>
+  <data name="Source_Desc_Key" xml:space="preserve">
+    <value>The URL to load in the iframe.</value>
+    <comment>Description for the source property</comment>
+  </data>
+  <data name="IframeWidth_Display_Key" xml:space="preserve">
+    <value>Iframe Width</value>
+    <comment>Display name for the iframeWidth property</comment>
+  </data>
+  <data name="IframeWidth_Desc_Key" xml:space="preserve">
+    <value>The CSS width of the iframe (e.g., 100%, 800px).</value>
+    <comment>Description for the iframeWidth property</comment>
+  </data>
+  <data name="IframeHeight_Display_Key" xml:space="preserve">
+    <value>Iframe Height</value>
+    <comment>Display name for the iframeHeight property</comment>
+  </data>
+  <data name="IframeHeight_Desc_Key" xml:space="preserve">
+    <value>The CSS height of the iframe (e.g., 100%, 600px).</value>
+    <comment>Description for the iframeHeight property</comment>
+  </data>
+</root>

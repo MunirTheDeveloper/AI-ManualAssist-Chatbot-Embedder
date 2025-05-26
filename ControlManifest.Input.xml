@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<manifest>
+  <control namespace="NghiemDoan" constructor="responsiveIframePCFControl" version="0.0.1" display-name-key="responsiveIframePCFControl" description-key="responsiveIframePCFControl description" control-type="standard" >
+    <external-service-usage enabled="false">
+    </external-service-usage>
+
+    <property name="source" display-name-key="Source" description-key="Source" of-type="SingleLine.URL" usage="bound" required="true" default-value="https://www.bing.com/"/>
+    <property name="iframeWidth" usage="input" of-type="SingleLine.Text" required="false" default-value="100%" display-name-key="IframeWidth_Display_Key" description-key="IframeWidth_Desc_Key" />
+    <property name="iframeHeight" usage="input" of-type="SingleLine.Text" required="false" default-value="600px" display-name-key="IframeHeight_Display_Key" description-key="IframeHeight_Desc_Key" />
+
+    <resources>
+      <code path="index.ts" order="1"/>
+      <css path="css/responsiveIframePCFControl.css" order="1" />
+      <resx path="strings/responsiveIframePCFControl.resx" version="1.0.0" />
+    </resources>
+
+    <feature-usage>
+      <uses-feature name="Device.captureAudio" required="false" />
+      <uses-feature name="Device.captureVideo" required="false" />
+    </feature-usage>
+  </control>
+</manifest>
